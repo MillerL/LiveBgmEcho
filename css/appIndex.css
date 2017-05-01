@@ -1,0 +1,86 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  height: 100%;
+  background-color: #f1f1f1; }
+  body p {
+    color: #aaa;
+    font-weight: 100;
+    font-size: 0.9rem; }
+
+* {
+  text-decoration: none;
+  box-sizing: border-box; }
+
+*:focus {
+  outline: none; }
+
+input {
+  background-clip: border-box;
+  border: none; }
+
+a {
+  color: #62a7cc; }
+
+.fl {
+  float: left; }
+
+.clearFloat {
+  clear: both; }
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  border-radius: 0;
+  background-color: #2d2331; }
+  .jumbotron .bgm-echo-title {
+    font-size: 3.6rem;
+    color: #ec971f;
+    margin: 1.6rem 0; }
+  .jumbotron .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased; }
+
+/*输入框*/
+.form {
+  margin-top: 0.4rem; }
+  .form .input-group-addon {
+    border: none;
+    color: #666666;
+    font-size: 16px;
+    border-right: 1px solid #d8d8d8; }
+  .form .form-control {
+    background-clip: border-box;
+    border: none; }
+  .form .form-control:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #ec971f; }
+  .form .input-group-btn {
+    color: white; }
+    .form .input-group-btn input {
+      background: #ec971f; }
+  .form .input-group-btn input:hover {
+    background: #d4820e; }
+  .form .input-group-btn input:focus {
+    outline: none; }
+
+.result {
+  margin-top: 60px; }
+  .result .music-result {
+    padding: 1rem;
+    background-color: black; }
+    .result .music-result .music-title {
+      color: #d8d8d8; }
+
+/*# sourceMappingURL=appIndex.css.map */
