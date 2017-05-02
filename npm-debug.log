@@ -1,0 +1,1205 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express-generator' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData express-generator
+8 silly fetchNamedPackageData express-generator
+9 silly mapToRegistry name express-generator
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'express-generator',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'express-generator',
+12 silly mapToRegistry   name: 'express-generator',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+14 verbose request uri https://registry.npmjs.org/express-generator
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 00:44:22
+17 verbose request id ea593c84e59908f6
+18 http request GET https://registry.npmjs.org/express-generator
+19 http 200 https://registry.npmjs.org/express-generator
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Thu, 20 Apr 2017 06:04:33 GMT',
+20 verbose headers   etag: 'W/"58f84f71-9eab"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '4751',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Mon, 01 May 2017 16:44:23 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '195',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1493657063.324728,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Thu, 20 Apr 2017 06:04:33 GMT',
+21 silly get     etag: 'W/"58f84f71-9eab"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '4751',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Mon, 01 May 2017 16:44:23 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '195',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-itm7426-ITM',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1493657063.324728,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving express-generator to /Users/jessica/.npm/registry.npmjs.org/express-generator/.cache.json
+23 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule express-generator@4.15.0 checking installable status
+37 silly cache add args [ 'express-generator', null ]
+38 verbose cache add spec express-generator
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'express-generator',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'express-generator',
+39 silly cache add   name: 'express-generator',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed express-generator@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for express-generator
+42 info addNameTag [ 'express-generator', 'latest' ]
+43 silly mapToRegistry name express-generator
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'express-generator',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'express-generator',
+46 silly mapToRegistry   name: 'express-generator',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+48 verbose addNameTag registry:https://registry.npmjs.org/express-generator not in flight; fetching
+49 verbose get https://registry.npmjs.org/express-generator not expired, no request
+50 silly addNameTag next cb for express-generator with tag latest
+51 silly addNamed express-generator@4.15.0
+52 verbose addNamed "4.15.0" is a plain semver version for express-generator
+53 silly mapToRegistry name express-generator
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'express-generator',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'express-generator',
+56 silly mapToRegistry   name: 'express-generator',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+58 verbose addRemoteTarball https://registry.npmjs.org/express-generator/-/express-generator-4.15.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.15.0.tgz',
+59 verbose addRemoteTarball   '81ba5ca8db9ceeaee281a08f5ad5c3f472430006' ]
+60 info retry fetch attempt 1 at 00:44:23
+61 info attempt registry request try #1 at 00:44:23
+62 http fetch GET https://registry.npmjs.org/express-generator/-/express-generator-4.15.0.tgz
+63 http fetch 200 https://registry.npmjs.org/express-generator/-/express-generator-4.15.0.tgz
+64 silly fetchAndShaCheck shasum 81ba5ca8db9ceeaee281a08f5ad5c3f472430006
+65 verbose addTmpTarball /var/folders/q2/_253pwwx2810yjwd7hbrt5r00000gn/T/npm-2804-7b678ad8/registry.npmjs.org/express-generator/-/express-generator-4.15.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for express-generator@4.15.0
+67 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd express-generator@4.15.0
+69 verbose afterAdd /Users/jessica/.npm/express-generator/4.15.0/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/jessica/.npm/express-generator/4.15.0/package/package.json written
+72 silly fetchNamedPackageData commander
+73 silly mapToRegistry name commander
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'commander',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'commander',
+76 silly mapToRegistry   name: 'commander',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/commander
+78 silly fetchNamedPackageData ejs
+79 silly mapToRegistry name ejs
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'ejs',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'ejs',
+82 silly mapToRegistry   name: 'ejs',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/ejs
+84 silly fetchNamedPackageData mkdirp
+85 silly mapToRegistry name mkdirp
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'mkdirp',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'mkdirp',
+88 silly mapToRegistry   name: 'mkdirp',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+90 silly fetchNamedPackageData sorted-object
+91 silly mapToRegistry name sorted-object
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'sorted-object',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'sorted-object',
+94 silly mapToRegistry   name: 'sorted-object',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+96 verbose request uri https://registry.npmjs.org/commander
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 00:44:23
+99 http request GET https://registry.npmjs.org/commander
+100 verbose request uri https://registry.npmjs.org/ejs
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 00:44:23
+103 http request GET https://registry.npmjs.org/ejs
+104 verbose request uri https://registry.npmjs.org/sorted-object
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 00:44:23
+107 http request GET https://registry.npmjs.org/sorted-object
+108 verbose request uri https://registry.npmjs.org/mkdirp
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 00:44:23
+111 verbose etag W/"58caa290-62a1"
+112 verbose lastModified Thu, 16 Mar 2017 14:34:56 GMT
+113 http request GET https://registry.npmjs.org/mkdirp
+114 http 200 https://registry.npmjs.org/commander
+115 verbose headers { server: 'nginx/1.10.1',
+115 verbose headers   'content-type': 'application/json',
+115 verbose headers   'last-modified': 'Mon, 01 May 2017 02:01:37 GMT',
+115 verbose headers   etag: 'W/"59069701-10330"',
+115 verbose headers   'content-encoding': 'gzip',
+115 verbose headers   'cache-control': 'max-age=300',
+115 verbose headers   'content-length': '13003',
+115 verbose headers   'accept-ranges': 'bytes',
+115 verbose headers   date: 'Mon, 01 May 2017 16:44:23 GMT',
+115 verbose headers   via: '1.1 varnish',
+115 verbose headers   age: '279',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+115 verbose headers   'x-cache': 'HIT',
+115 verbose headers   'x-cache-hits': '6',
+115 verbose headers   'x-timer': 'S1493657064.596513,VS0,VE0',
+115 verbose headers   vary: 'Accept-Encoding' }
+116 silly get cb [ 200,
+116 silly get   { server: 'nginx/1.10.1',
+116 silly get     'content-type': 'application/json',
+116 silly get     'last-modified': 'Mon, 01 May 2017 02:01:37 GMT',
+116 silly get     etag: 'W/"59069701-10330"',
+116 silly get     'content-encoding': 'gzip',
+116 silly get     'cache-control': 'max-age=300',
+116 silly get     'content-length': '13003',
+116 silly get     'accept-ranges': 'bytes',
+116 silly get     date: 'Mon, 01 May 2017 16:44:23 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     age: '279',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-itm7426-ITM',
+116 silly get     'x-cache': 'HIT',
+116 silly get     'x-cache-hits': '6',
+116 silly get     'x-timer': 'S1493657064.596513,VS0,VE0',
+116 silly get     vary: 'Accept-Encoding' } ]
+117 verbose get saving commander to /Users/jessica/.npm/registry.npmjs.org/commander/.cache.json
+118 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+119 silly resolveWithNewModule commander@2.9.0 checking installable status
+120 silly cache add args [ 'commander@2.9.0', null ]
+121 verbose cache add spec commander@2.9.0
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'commander@2.9.0',
+122 silly cache add   scope: null,
+122 silly cache add   escapedName: 'commander',
+122 silly cache add   name: 'commander',
+122 silly cache add   rawSpec: '2.9.0',
+122 silly cache add   spec: '2.9.0',
+122 silly cache add   type: 'version' }
+123 silly addNamed commander@2.9.0
+124 verbose addNamed "2.9.0" is a plain semver version for commander
+125 silly mapToRegistry name commander
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'commander',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'commander',
+128 silly mapToRegistry   name: 'commander',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/commander
+130 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+131 verbose get https://registry.npmjs.org/commander not expired, no request
+132 silly cache afterAdd commander@2.9.0
+133 verbose afterAdd /Users/jessica/.npm/commander/2.9.0/package/package.json not in flight; writing
+134 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+135 verbose afterAdd /Users/jessica/.npm/commander/2.9.0/package/package.json written
+136 http 200 https://registry.npmjs.org/mkdirp
+137 verbose headers { server: 'nginx/1.10.3',
+137 verbose headers   'content-type': 'application/json',
+137 verbose headers   'last-modified': 'Sat, 29 Apr 2017 01:41:39 GMT',
+137 verbose headers   etag: 'W/"5903ef53-6370"',
+137 verbose headers   'content-encoding': 'gzip',
+137 verbose headers   'cache-control': 'max-age=300',
+137 verbose headers   'content-length': '4922',
+137 verbose headers   'accept-ranges': 'bytes',
+137 verbose headers   date: 'Mon, 01 May 2017 16:44:23 GMT',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   age: '20',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+137 verbose headers   'x-cache': 'HIT',
+137 verbose headers   'x-cache-hits': '1',
+137 verbose headers   'x-timer': 'S1493657064.763276,VS0,VE0',
+137 verbose headers   vary: 'Accept-Encoding' }
+138 silly get cb [ 200,
+138 silly get   { server: 'nginx/1.10.3',
+138 silly get     'content-type': 'application/json',
+138 silly get     'last-modified': 'Sat, 29 Apr 2017 01:41:39 GMT',
+138 silly get     etag: 'W/"5903ef53-6370"',
+138 silly get     'content-encoding': 'gzip',
+138 silly get     'cache-control': 'max-age=300',
+138 silly get     'content-length': '4922',
+138 silly get     'accept-ranges': 'bytes',
+138 silly get     date: 'Mon, 01 May 2017 16:44:23 GMT',
+138 silly get     via: '1.1 varnish',
+138 silly get     age: '20',
+138 silly get     connection: 'keep-alive',
+138 silly get     'x-served-by': 'cache-itm7423-ITM',
+138 silly get     'x-cache': 'HIT',
+138 silly get     'x-cache-hits': '1',
+138 silly get     'x-timer': 'S1493657064.763276,VS0,VE0',
+138 silly get     vary: 'Accept-Encoding' } ]
+139 verbose get saving mkdirp to /Users/jessica/.npm/registry.npmjs.org/mkdirp/.cache.json
+140 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+141 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+142 silly cache add args [ 'mkdirp@0.5.1', null ]
+143 verbose cache add spec mkdirp@0.5.1
+144 silly cache add parsed spec Result {
+144 silly cache add   raw: 'mkdirp@0.5.1',
+144 silly cache add   scope: null,
+144 silly cache add   escapedName: 'mkdirp',
+144 silly cache add   name: 'mkdirp',
+144 silly cache add   rawSpec: '0.5.1',
+144 silly cache add   spec: '0.5.1',
+144 silly cache add   type: 'version' }
+145 silly addNamed mkdirp@0.5.1
+146 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+147 silly mapToRegistry name mkdirp
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry data Result {
+150 silly mapToRegistry   raw: 'mkdirp',
+150 silly mapToRegistry   scope: null,
+150 silly mapToRegistry   escapedName: 'mkdirp',
+150 silly mapToRegistry   name: 'mkdirp',
+150 silly mapToRegistry   rawSpec: '',
+150 silly mapToRegistry   spec: 'latest',
+150 silly mapToRegistry   type: 'tag' }
+151 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+152 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+153 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+154 http 200 https://registry.npmjs.org/ejs
+155 verbose headers { server: 'nginx/1.10.3',
+155 verbose headers   'content-type': 'application/json',
+155 verbose headers   'last-modified': 'Thu, 27 Apr 2017 12:56:09 GMT',
+155 verbose headers   etag: 'W/"5901ea69-109fd"',
+155 verbose headers   'content-encoding': 'gzip',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   'content-length': '10782',
+155 verbose headers   'accept-ranges': 'bytes',
+155 verbose headers   date: 'Mon, 01 May 2017 16:44:23 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   age: '166',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '23',
+155 verbose headers   'x-timer': 'S1493657064.768464,VS0,VE0',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 200,
+156 silly get   { server: 'nginx/1.10.3',
+156 silly get     'content-type': 'application/json',
+156 silly get     'last-modified': 'Thu, 27 Apr 2017 12:56:09 GMT',
+156 silly get     etag: 'W/"5901ea69-109fd"',
+156 silly get     'content-encoding': 'gzip',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     'content-length': '10782',
+156 silly get     'accept-ranges': 'bytes',
+156 silly get     date: 'Mon, 01 May 2017 16:44:23 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     age: '166',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-itm7424-ITM',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '23',
+156 silly get     'x-timer': 'S1493657064.768464,VS0,VE0',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose get saving ejs to /Users/jessica/.npm/registry.npmjs.org/ejs/.cache.json
+158 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+159 silly cache afterAdd mkdirp@0.5.1
+160 verbose afterAdd /Users/jessica/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+161 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+162 silly resolveWithNewModule ejs@2.5.6 checking installable status
+163 silly cache add args [ 'ejs@2.5.6', null ]
+164 verbose cache add spec ejs@2.5.6
+165 silly cache add parsed spec Result {
+165 silly cache add   raw: 'ejs@2.5.6',
+165 silly cache add   scope: null,
+165 silly cache add   escapedName: 'ejs',
+165 silly cache add   name: 'ejs',
+165 silly cache add   rawSpec: '2.5.6',
+165 silly cache add   spec: '2.5.6',
+165 silly cache add   type: 'version' }
+166 silly addNamed ejs@2.5.6
+167 verbose addNamed "2.5.6" is a plain semver version for ejs
+168 silly mapToRegistry name ejs
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'ejs',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   escapedName: 'ejs',
+171 silly mapToRegistry   name: 'ejs',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npmjs.org/ejs
+173 verbose addNameVersion registry:https://registry.npmjs.org/ejs not in flight; fetching
+174 verbose get https://registry.npmjs.org/ejs not expired, no request
+175 verbose afterAdd /Users/jessica/.npm/mkdirp/0.5.1/package/package.json written
+176 silly mapToRegistry name ejs
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'ejs',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'ejs',
+179 silly mapToRegistry   name: 'ejs',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/ejs
+181 verbose addRemoteTarball https://registry.npmjs.org/ejs/-/ejs-2.5.6.tgz not in flight; adding
+182 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.5.6.tgz',
+182 verbose addRemoteTarball   '479636bfa3fe3b1debd52087f0acb204b4f19c88' ]
+183 info retry fetch attempt 1 at 00:44:23
+184 info attempt registry request try #1 at 00:44:23
+185 http fetch GET https://registry.npmjs.org/ejs/-/ejs-2.5.6.tgz
+186 http fetch 200 https://registry.npmjs.org/ejs/-/ejs-2.5.6.tgz
+187 silly fetchAndShaCheck shasum 479636bfa3fe3b1debd52087f0acb204b4f19c88
+188 verbose addTmpTarball /var/folders/q2/_253pwwx2810yjwd7hbrt5r00000gn/T/npm-2804-7b678ad8/registry.npmjs.org/ejs/-/ejs-2.5.6.tgz not in flight; adding
+189 verbose addTmpTarball already have metadata; skipping unpack for ejs@2.5.6
+190 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+191 silly cache afterAdd ejs@2.5.6
+192 verbose afterAdd /Users/jessica/.npm/ejs/2.5.6/package/package.json not in flight; writing
+193 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+194 verbose afterAdd /Users/jessica/.npm/ejs/2.5.6/package/package.json written
+195 http 200 https://registry.npmjs.org/sorted-object
+196 verbose headers { server: 'nginx/1.10.1',
+196 verbose headers   'content-type': 'application/json',
+196 verbose headers   'last-modified': 'Sat, 10 Sep 2016 23:39:29 GMT',
+196 verbose headers   etag: 'W/"57d499b1-1545"',
+196 verbose headers   'content-encoding': 'gzip',
+196 verbose headers   'cache-control': 'max-age=300',
+196 verbose headers   'content-length': '1619',
+196 verbose headers   'accept-ranges': 'bytes',
+196 verbose headers   date: 'Mon, 01 May 2017 16:44:24 GMT',
+196 verbose headers   via: '1.1 varnish',
+196 verbose headers   age: '0',
+196 verbose headers   connection: 'keep-alive',
+196 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+196 verbose headers   'x-cache': 'HIT',
+196 verbose headers   'x-cache-hits': '1',
+196 verbose headers   'x-timer': 'S1493657064.753314,VS0,VE546',
+196 verbose headers   vary: 'Accept-Encoding' }
+197 silly get cb [ 200,
+197 silly get   { server: 'nginx/1.10.1',
+197 silly get     'content-type': 'application/json',
+197 silly get     'last-modified': 'Sat, 10 Sep 2016 23:39:29 GMT',
+197 silly get     etag: 'W/"57d499b1-1545"',
+197 silly get     'content-encoding': 'gzip',
+197 silly get     'cache-control': 'max-age=300',
+197 silly get     'content-length': '1619',
+197 silly get     'accept-ranges': 'bytes',
+197 silly get     date: 'Mon, 01 May 2017 16:44:24 GMT',
+197 silly get     via: '1.1 varnish',
+197 silly get     age: '0',
+197 silly get     connection: 'keep-alive',
+197 silly get     'x-served-by': 'cache-itm7423-ITM',
+197 silly get     'x-cache': 'HIT',
+197 silly get     'x-cache-hits': '1',
+197 silly get     'x-timer': 'S1493657064.753314,VS0,VE546',
+197 silly get     vary: 'Accept-Encoding' } ]
+198 verbose get saving sorted-object to /Users/jessica/.npm/registry.npmjs.org/sorted-object/.cache.json
+199 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+200 silly resolveWithNewModule sorted-object@2.0.1 checking installable status
+201 silly cache add args [ 'sorted-object@2.0.1', null ]
+202 verbose cache add spec sorted-object@2.0.1
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: 'sorted-object@2.0.1',
+203 silly cache add   scope: null,
+203 silly cache add   escapedName: 'sorted-object',
+203 silly cache add   name: 'sorted-object',
+203 silly cache add   rawSpec: '2.0.1',
+203 silly cache add   spec: '2.0.1',
+203 silly cache add   type: 'version' }
+204 silly addNamed sorted-object@2.0.1
+205 verbose addNamed "2.0.1" is a plain semver version for sorted-object
+206 silly mapToRegistry name sorted-object
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'sorted-object',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   escapedName: 'sorted-object',
+209 silly mapToRegistry   name: 'sorted-object',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+211 verbose addNameVersion registry:https://registry.npmjs.org/sorted-object not in flight; fetching
+212 verbose get https://registry.npmjs.org/sorted-object not expired, no request
+213 silly mapToRegistry name sorted-object
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry data Result {
+216 silly mapToRegistry   raw: 'sorted-object',
+216 silly mapToRegistry   scope: null,
+216 silly mapToRegistry   escapedName: 'sorted-object',
+216 silly mapToRegistry   name: 'sorted-object',
+216 silly mapToRegistry   rawSpec: '',
+216 silly mapToRegistry   spec: 'latest',
+216 silly mapToRegistry   type: 'tag' }
+217 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+218 verbose addRemoteTarball https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.1.tgz not in flight; adding
+219 verbose addRemoteTarball [ 'https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.1.tgz',
+219 verbose addRemoteTarball   '7d631f4bd3a798a24af1dffcfbfe83337a5df5fc' ]
+220 info retry fetch attempt 1 at 00:44:24
+221 info attempt registry request try #1 at 00:44:24
+222 http fetch GET https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.1.tgz
+223 http fetch 200 https://registry.npmjs.org/sorted-object/-/sorted-object-2.0.1.tgz
+224 silly fetchAndShaCheck shasum 7d631f4bd3a798a24af1dffcfbfe83337a5df5fc
+225 verbose addTmpTarball /var/folders/q2/_253pwwx2810yjwd7hbrt5r00000gn/T/npm-2804-7b678ad8/registry.npmjs.org/sorted-object/-/sorted-object-2.0.1.tgz not in flight; adding
+226 verbose addTmpTarball already have metadata; skipping unpack for sorted-object@2.0.1
+227 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+228 silly cache afterAdd sorted-object@2.0.1
+229 verbose afterAdd /Users/jessica/.npm/sorted-object/2.0.1/package/package.json not in flight; writing
+230 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+231 verbose afterAdd /Users/jessica/.npm/sorted-object/2.0.1/package/package.json written
+232 silly fetchNamedPackageData graceful-readlink
+233 silly mapToRegistry name graceful-readlink
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'graceful-readlink',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   escapedName: 'graceful-readlink',
+236 silly mapToRegistry   name: 'graceful-readlink',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+238 verbose request uri https://registry.npmjs.org/graceful-readlink
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 00:44:24
+241 http request GET https://registry.npmjs.org/graceful-readlink
+242 http 200 https://registry.npmjs.org/graceful-readlink
+243 verbose headers { server: 'nginx/1.10.1',
+243 verbose headers   'content-type': 'application/json',
+243 verbose headers   'last-modified': 'Sat, 24 Dec 2016 22:39:10 GMT',
+243 verbose headers   etag: 'W/"585ef90e-c1b"',
+243 verbose headers   'content-encoding': 'gzip',
+243 verbose headers   'cache-control': 'max-age=300',
+243 verbose headers   'content-length': '983',
+243 verbose headers   'accept-ranges': 'bytes',
+243 verbose headers   date: 'Mon, 01 May 2017 16:44:24 GMT',
+243 verbose headers   via: '1.1 varnish',
+243 verbose headers   age: '253',
+243 verbose headers   connection: 'keep-alive',
+243 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+243 verbose headers   'x-cache': 'HIT',
+243 verbose headers   'x-cache-hits': '4',
+243 verbose headers   'x-timer': 'S1493657065.571680,VS0,VE0',
+243 verbose headers   vary: 'Accept-Encoding' }
+244 silly get cb [ 200,
+244 silly get   { server: 'nginx/1.10.1',
+244 silly get     'content-type': 'application/json',
+244 silly get     'last-modified': 'Sat, 24 Dec 2016 22:39:10 GMT',
+244 silly get     etag: 'W/"585ef90e-c1b"',
+244 silly get     'content-encoding': 'gzip',
+244 silly get     'cache-control': 'max-age=300',
+244 silly get     'content-length': '983',
+244 silly get     'accept-ranges': 'bytes',
+244 silly get     date: 'Mon, 01 May 2017 16:44:24 GMT',
+244 silly get     via: '1.1 varnish',
+244 silly get     age: '253',
+244 silly get     connection: 'keep-alive',
+244 silly get     'x-served-by': 'cache-itm7424-ITM',
+244 silly get     'x-cache': 'HIT',
+244 silly get     'x-cache-hits': '4',
+244 silly get     'x-timer': 'S1493657065.571680,VS0,VE0',
+244 silly get     vary: 'Accept-Encoding' } ]
+245 verbose get saving graceful-readlink to /Users/jessica/.npm/registry.npmjs.org/graceful-readlink/.cache.json
+246 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+247 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+248 silly cache add args [ 'graceful-readlink@>= 1.0.0', null ]
+249 verbose cache add spec graceful-readlink@>= 1.0.0
+250 silly cache add parsed spec Result {
+250 silly cache add   raw: 'graceful-readlink@>= 1.0.0',
+250 silly cache add   scope: null,
+250 silly cache add   escapedName: 'graceful-readlink',
+250 silly cache add   name: 'graceful-readlink',
+250 silly cache add   rawSpec: '>= 1.0.0',
+250 silly cache add   spec: '>=1.0.0',
+250 silly cache add   type: 'range' }
+251 silly addNamed graceful-readlink@>=1.0.0
+252 verbose addNamed ">=1.0.0" is a valid semver range for graceful-readlink
+253 silly addNameRange { name: 'graceful-readlink', range: '>=1.0.0', hasData: false }
+254 silly mapToRegistry name graceful-readlink
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'graceful-readlink',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   escapedName: 'graceful-readlink',
+257 silly mapToRegistry   name: 'graceful-readlink',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+259 verbose addNameRange registry:https://registry.npmjs.org/graceful-readlink not in flight; fetching
+260 verbose get https://registry.npmjs.org/graceful-readlink not expired, no request
+261 silly addNameRange number 2 { name: 'graceful-readlink', range: '>=1.0.0', hasData: true }
+262 silly addNameRange versions [ 'graceful-readlink', [ '1.0.0', '1.0.1' ] ]
+263 silly addNamed graceful-readlink@1.0.1
+264 verbose addNamed "1.0.1" is a plain semver version for graceful-readlink
+265 silly cache afterAdd graceful-readlink@1.0.1
+266 verbose afterAdd /Users/jessica/.npm/graceful-readlink/1.0.1/package/package.json not in flight; writing
+267 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+268 verbose afterAdd /Users/jessica/.npm/graceful-readlink/1.0.1/package/package.json written
+269 silly fetchNamedPackageData minimist
+270 silly mapToRegistry name minimist
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'minimist',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   escapedName: 'minimist',
+273 silly mapToRegistry   name: 'minimist',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri https://registry.npmjs.org/minimist
+275 verbose request uri https://registry.npmjs.org/minimist
+276 verbose request no auth needed
+277 info attempt registry request try #1 at 00:44:24
+278 verbose etag W/"58c30ae4-7450"
+279 verbose lastModified Fri, 10 Mar 2017 20:21:56 GMT
+280 http request GET https://registry.npmjs.org/minimist
+281 http 200 https://registry.npmjs.org/minimist
+282 verbose headers { server: 'nginx/1.10.1',
+282 verbose headers   'content-type': 'application/json',
+282 verbose headers   'last-modified': 'Fri, 28 Apr 2017 08:54:53 GMT',
+282 verbose headers   etag: 'W/"5903035d-7548"',
+282 verbose headers   'content-encoding': 'gzip',
+282 verbose headers   'cache-control': 'max-age=300',
+282 verbose headers   'content-length': '5760',
+282 verbose headers   'accept-ranges': 'bytes',
+282 verbose headers   date: 'Mon, 01 May 2017 16:44:24 GMT',
+282 verbose headers   via: '1.1 varnish',
+282 verbose headers   age: '82',
+282 verbose headers   connection: 'keep-alive',
+282 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+282 verbose headers   'x-cache': 'HIT',
+282 verbose headers   'x-cache-hits': '3',
+282 verbose headers   'x-timer': 'S1493657065.680670,VS0,VE0',
+282 verbose headers   vary: 'Accept-Encoding' }
+283 silly get cb [ 200,
+283 silly get   { server: 'nginx/1.10.1',
+283 silly get     'content-type': 'application/json',
+283 silly get     'last-modified': 'Fri, 28 Apr 2017 08:54:53 GMT',
+283 silly get     etag: 'W/"5903035d-7548"',
+283 silly get     'content-encoding': 'gzip',
+283 silly get     'cache-control': 'max-age=300',
+283 silly get     'content-length': '5760',
+283 silly get     'accept-ranges': 'bytes',
+283 silly get     date: 'Mon, 01 May 2017 16:44:24 GMT',
+283 silly get     via: '1.1 varnish',
+283 silly get     age: '82',
+283 silly get     connection: 'keep-alive',
+283 silly get     'x-served-by': 'cache-itm7426-ITM',
+283 silly get     'x-cache': 'HIT',
+283 silly get     'x-cache-hits': '3',
+283 silly get     'x-timer': 'S1493657065.680670,VS0,VE0',
+283 silly get     vary: 'Accept-Encoding' } ]
+284 verbose get saving minimist to /Users/jessica/.npm/registry.npmjs.org/minimist/.cache.json
+285 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+286 silly resolveWithNewModule minimist@0.0.8 checking installable status
+287 silly cache add args [ 'minimist@0.0.8', null ]
+288 verbose cache add spec minimist@0.0.8
+289 silly cache add parsed spec Result {
+289 silly cache add   raw: 'minimist@0.0.8',
+289 silly cache add   scope: null,
+289 silly cache add   escapedName: 'minimist',
+289 silly cache add   name: 'minimist',
+289 silly cache add   rawSpec: '0.0.8',
+289 silly cache add   spec: '0.0.8',
+289 silly cache add   type: 'version' }
+290 silly addNamed minimist@0.0.8
+291 verbose addNamed "0.0.8" is a plain semver version for minimist
+292 silly mapToRegistry name minimist
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry data Result {
+295 silly mapToRegistry   raw: 'minimist',
+295 silly mapToRegistry   scope: null,
+295 silly mapToRegistry   escapedName: 'minimist',
+295 silly mapToRegistry   name: 'minimist',
+295 silly mapToRegistry   rawSpec: '',
+295 silly mapToRegistry   spec: 'latest',
+295 silly mapToRegistry   type: 'tag' }
+296 silly mapToRegistry uri https://registry.npmjs.org/minimist
+297 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+298 verbose get https://registry.npmjs.org/minimist not expired, no request
+299 silly cache afterAdd minimist@0.0.8
+300 verbose afterAdd /Users/jessica/.npm/minimist/0.0.8/package/package.json not in flight; writing
+301 verbose correctMkdir /Users/jessica/.npm correctMkdir not in flight; initializing
+302 verbose afterAdd /Users/jessica/.npm/minimist/0.0.8/package/package.json written
+303 silly loadAllDepsIntoIdealTree Finishing
+304 silly loadIdealTree Finishing
+305 silly currentTree lib
+306 silly idealTree lib
+306 silly idealTree └─┬ express-generator@4.15.0
+306 silly idealTree   ├── commander@2.9.0
+306 silly idealTree   ├── ejs@2.5.6
+306 silly idealTree   ├── graceful-readlink@1.0.1
+306 silly idealTree   ├── minimist@0.0.8
+306 silly idealTree   ├── mkdirp@0.5.1
+306 silly idealTree   └── sorted-object@2.0.1
+307 silly generateActionsToTake Starting
+308 silly install generateActionsToTake
+309 silly generateActionsToTake Finishing
+310 silly diffTrees action count 7
+311 silly diffTrees add graceful-readlink@1.0.1
+312 silly diffTrees add minimist@0.0.8
+313 silly diffTrees add commander@2.9.0
+314 silly diffTrees add ejs@2.5.6
+315 silly diffTrees add mkdirp@0.5.1
+316 silly diffTrees add sorted-object@2.0.1
+317 silly diffTrees add express-generator@4.15.0
+318 silly decomposeActions action count 56
+319 silly decomposeActions fetch graceful-readlink@1.0.1
+320 silly decomposeActions extract graceful-readlink@1.0.1
+321 silly decomposeActions test graceful-readlink@1.0.1
+322 silly decomposeActions preinstall graceful-readlink@1.0.1
+323 silly decomposeActions build graceful-readlink@1.0.1
+324 silly decomposeActions install graceful-readlink@1.0.1
+325 silly decomposeActions postinstall graceful-readlink@1.0.1
+326 silly decomposeActions finalize graceful-readlink@1.0.1
+327 silly decomposeActions fetch minimist@0.0.8
+328 silly decomposeActions extract minimist@0.0.8
+329 silly decomposeActions test minimist@0.0.8
+330 silly decomposeActions preinstall minimist@0.0.8
+331 silly decomposeActions build minimist@0.0.8
+332 silly decomposeActions install minimist@0.0.8
+333 silly decomposeActions postinstall minimist@0.0.8
+334 silly decomposeActions finalize minimist@0.0.8
+335 silly decomposeActions fetch commander@2.9.0
+336 silly decomposeActions extract commander@2.9.0
+337 silly decomposeActions test commander@2.9.0
+338 silly decomposeActions preinstall commander@2.9.0
+339 silly decomposeActions build commander@2.9.0
+340 silly decomposeActions install commander@2.9.0
+341 silly decomposeActions postinstall commander@2.9.0
+342 silly decomposeActions finalize commander@2.9.0
+343 silly decomposeActions fetch ejs@2.5.6
+344 silly decomposeActions extract ejs@2.5.6
+345 silly decomposeActions test ejs@2.5.6
+346 silly decomposeActions preinstall ejs@2.5.6
+347 silly decomposeActions build ejs@2.5.6
+348 silly decomposeActions install ejs@2.5.6
+349 silly decomposeActions postinstall ejs@2.5.6
+350 silly decomposeActions finalize ejs@2.5.6
+351 silly decomposeActions fetch mkdirp@0.5.1
+352 silly decomposeActions extract mkdirp@0.5.1
+353 silly decomposeActions test mkdirp@0.5.1
+354 silly decomposeActions preinstall mkdirp@0.5.1
+355 silly decomposeActions build mkdirp@0.5.1
+356 silly decomposeActions install mkdirp@0.5.1
+357 silly decomposeActions postinstall mkdirp@0.5.1
+358 silly decomposeActions finalize mkdirp@0.5.1
+359 silly decomposeActions fetch sorted-object@2.0.1
+360 silly decomposeActions extract sorted-object@2.0.1
+361 silly decomposeActions test sorted-object@2.0.1
+362 silly decomposeActions preinstall sorted-object@2.0.1
+363 silly decomposeActions build sorted-object@2.0.1
+364 silly decomposeActions install sorted-object@2.0.1
+365 silly decomposeActions postinstall sorted-object@2.0.1
+366 silly decomposeActions finalize sorted-object@2.0.1
+367 silly decomposeActions fetch express-generator@4.15.0
+368 silly decomposeActions extract express-generator@4.15.0
+369 silly decomposeActions test express-generator@4.15.0
+370 silly decomposeActions preinstall express-generator@4.15.0
+371 silly decomposeActions build express-generator@4.15.0
+372 silly decomposeActions install express-generator@4.15.0
+373 silly decomposeActions postinstall express-generator@4.15.0
+374 silly decomposeActions finalize express-generator@4.15.0
+375 silly runTopLevelLifecycles Starting
+376 silly executeActions Starting
+377 silly install executeActions
+378 silly doSerial global-install 0
+379 silly doParallel fetch 7
+380 verbose correctMkdir /Users/jessica/.npm/_locks correctMkdir not in flight; initializing
+381 verbose lock using /Users/jessica/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+382 silly doParallel extract 7
+383 silly extract graceful-readlink@1.0.1
+384 silly extract minimist@0.0.8
+385 silly extract commander@2.9.0
+386 silly extract ejs@2.5.6
+387 silly extract mkdirp@0.5.1
+388 silly extract sorted-object@2.0.1
+389 silly extract express-generator@4.15.0
+390 verbose unbuild lib/node_modules/.staging/graceful-readlink-ea74dc32
+391 verbose unbuild lib/node_modules/.staging/minimist-cb6858d4
+392 verbose unbuild lib/node_modules/.staging/commander-898e1b43
+393 verbose unbuild lib/node_modules/.staging/ejs-2de19af3
+394 verbose unbuild lib/node_modules/.staging/sorted-object-b497dff3
+395 verbose unbuild lib/node_modules/.staging/mkdirp-f65a1b18
+396 verbose unbuild lib/node_modules/.staging/express-generator-2930afea
+397 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32 is being purged from base /usr/local
+398 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32
+399 silly gentlyRm /usr/local/lib/node_modules/.staging/minimist-cb6858d4 is being purged from base /usr/local
+400 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimist-cb6858d4
+401 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-898e1b43 is being purged from base /usr/local
+402 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-898e1b43
+403 silly gentlyRm /usr/local/lib/node_modules/.staging/ejs-2de19af3 is being purged from base /usr/local
+404 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ejs-2de19af3
+405 silly gentlyRm /usr/local/lib/node_modules/.staging/sorted-object-b497dff3 is being purged from base /usr/local
+406 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/sorted-object-b497dff3
+407 verbose tar unpack /Users/jessica/.npm/graceful-readlink/1.0.1/package.tgz
+408 verbose tar unpacking to /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32
+409 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32 is being purged
+410 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32
+411 verbose tar unpack /Users/jessica/.npm/minimist/0.0.8/package.tgz
+412 verbose tar unpacking to /usr/local/lib/node_modules/.staging/minimist-cb6858d4
+413 silly gentlyRm /usr/local/lib/node_modules/.staging/minimist-cb6858d4 is being purged
+414 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimist-cb6858d4
+415 verbose tar unpack /Users/jessica/.npm/commander/2.9.0/package.tgz
+416 verbose tar unpacking to /usr/local/lib/node_modules/.staging/commander-898e1b43
+417 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-898e1b43 is being purged
+418 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-898e1b43
+419 verbose tar unpack /Users/jessica/.npm/ejs/2.5.6/package.tgz
+420 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ejs-2de19af3
+421 silly gentlyRm /usr/local/lib/node_modules/.staging/ejs-2de19af3 is being purged
+422 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ejs-2de19af3
+423 verbose tar unpack /Users/jessica/.npm/sorted-object/2.0.1/package.tgz
+424 verbose tar unpacking to /usr/local/lib/node_modules/.staging/sorted-object-b497dff3
+425 silly gentlyRm /usr/local/lib/node_modules/.staging/sorted-object-b497dff3 is being purged
+426 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/sorted-object-b497dff3
+427 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18 is being purged from base /usr/local
+428 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18
+429 silly gentlyRm /usr/local/lib/node_modules/.staging/express-generator-2930afea is being purged from base /usr/local
+430 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/express-generator-2930afea
+431 silly gunzTarPerm modes [ '755', '644' ]
+432 silly gunzTarPerm modes [ '755', '644' ]
+433 silly gunzTarPerm modes [ '755', '644' ]
+434 silly gunzTarPerm modes [ '755', '644' ]
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 verbose tar unpack /Users/jessica/.npm/mkdirp/0.5.1/package.tgz
+437 verbose tar unpacking to /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18
+438 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18 is being purged
+439 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18
+440 verbose tar unpack /Users/jessica/.npm/express-generator/4.15.0/package.tgz
+441 verbose tar unpacking to /usr/local/lib/node_modules/.staging/express-generator-2930afea
+442 silly gentlyRm /usr/local/lib/node_modules/.staging/express-generator-2930afea is being purged
+443 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/express-generator-2930afea
+444 silly gunzTarPerm modes [ '755', '644' ]
+445 silly gunzTarPerm modes [ '755', '644' ]
+446 silly gunzTarPerm extractEntry package.json
+447 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+448 silly gunzTarPerm extractEntry package.json
+449 silly gunzTarPerm extractEntry package.json
+450 silly gunzTarPerm extractEntry
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+453 silly gunzTarPerm extractEntry package.json
+454 silly gunzTarPerm extractEntry package.json
+455 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+456 silly gunzTarPerm extractEntry .npmignore
+457 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+458 silly gunzTarPerm extractEntry README.md
+459 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+460 silly gunzTarPerm extractEntry LICENSE
+461 silly gunzTarPerm extractEntry index.js
+462 silly gunzTarPerm extractEntry LICENSE
+463 silly gunzTarPerm extractEntry index.js
+464 silly gunzTarPerm extractEntry LICENSE.txt
+465 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+466 silly gunzTarPerm extractEntry lib/sorted-object.js
+467 silly gunzTarPerm modified mode [ 'lib/sorted-object.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry ejs.js
+469 silly gunzTarPerm extractEntry ejs.min.js
+470 silly gunzTarPerm extractEntry LICENSE
+471 silly gunzTarPerm extractEntry index.js
+472 silly gunzTarPerm extractEntry README.md
+473 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+474 silly gunzTarPerm extractEntry LICENSE
+475 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+476 silly gunzTarPerm extractEntry Jakefile
+477 silly gunzTarPerm extractEntry lib/
+478 silly gunzTarPerm extractEntry LICENSE
+479 silly gunzTarPerm extractEntry package.json
+480 silly gunzTarPerm extractEntry LICENSE
+481 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+482 silly gunzTarPerm extractEntry index.js
+483 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+484 silly gunzTarPerm extractEntry .travis.yml
+485 silly gunzTarPerm extractEntry example/parse.js
+486 silly gunzTarPerm extractEntry Readme.md
+487 silly gunzTarPerm extractEntry .travis.yml
+488 silly gunzTarPerm extractEntry bin/cmd.js
+489 silly gunzTarPerm extractEntry bin/express-cli.js
+490 silly gunzTarPerm modified mode [ 'bin/express-cli.js', 438, 420 ]
+491 silly gunzTarPerm extractEntry templates/css/style.css
+492 silly gunzTarPerm modified mode [ 'templates/css/style.css', 438, 420 ]
+493 silly gunzTarPerm extractEntry templates/css/style.less
+494 silly gunzTarPerm modified mode [ 'templates/css/style.less', 438, 420 ]
+495 silly gunzTarPerm extractEntry templates/css/style.sass
+496 silly gunzTarPerm modified mode [ 'templates/css/style.sass', 438, 420 ]
+497 silly gunzTarPerm extractEntry templates/css/style.scss
+498 silly gunzTarPerm modified mode [ 'templates/css/style.scss', 438, 420 ]
+499 silly gunzTarPerm extractEntry templates/css/style.styl
+500 silly gunzTarPerm modified mode [ 'templates/css/style.styl', 438, 420 ]
+501 silly gunzTarPerm extractEntry templates/dust/error.dust
+502 silly gunzTarPerm modified mode [ 'templates/dust/error.dust', 438, 420 ]
+503 silly gunzTarPerm extractEntry templates/dust/index.dust
+504 silly gunzTarPerm modified mode [ 'templates/dust/index.dust', 438, 420 ]
+505 silly gunzTarPerm extractEntry templates/ejs/error.ejs
+506 silly gunzTarPerm modified mode [ 'templates/ejs/error.ejs', 438, 420 ]
+507 silly gunzTarPerm extractEntry templates/ejs/index.ejs
+508 silly gunzTarPerm modified mode [ 'templates/ejs/index.ejs', 438, 420 ]
+509 silly gunzTarPerm extractEntry templates/hbs/error.hbs
+510 silly gunzTarPerm modified mode [ 'templates/hbs/error.hbs', 438, 420 ]
+511 silly gunzTarPerm extractEntry templates/hbs/index.hbs
+512 silly gunzTarPerm modified mode [ 'templates/hbs/index.hbs', 438, 420 ]
+513 silly gunzTarPerm extractEntry templates/hbs/layout.hbs
+514 silly gunzTarPerm modified mode [ 'templates/hbs/layout.hbs', 438, 420 ]
+515 silly gunzTarPerm extractEntry templates/hogan/error.hjs
+516 silly gunzTarPerm modified mode [ 'templates/hogan/error.hjs', 438, 420 ]
+517 silly gunzTarPerm extractEntry templates/hogan/index.hjs
+518 silly gunzTarPerm modified mode [ 'templates/hogan/index.hjs', 438, 420 ]
+519 silly gunzTarPerm extractEntry templates/jade/error.jade
+520 silly gunzTarPerm modified mode [ 'templates/jade/error.jade', 438, 420 ]
+521 silly gunzTarPerm extractEntry templates/jade/index.jade
+522 silly gunzTarPerm modified mode [ 'templates/jade/index.jade', 438, 420 ]
+523 silly gunzTarPerm extractEntry templates/jade/layout.jade
+524 silly gunzTarPerm modified mode [ 'templates/jade/layout.jade', 438, 420 ]
+525 silly gunzTarPerm extractEntry templates/js/app.js.ejs
+526 silly gunzTarPerm modified mode [ 'templates/js/app.js.ejs', 438, 420 ]
+527 silly gunzTarPerm extractEntry templates/js/gitignore
+528 silly gunzTarPerm modified mode [ 'templates/js/gitignore', 438, 420 ]
+529 silly gunzTarPerm extractEntry templates/js/routes/index.js
+530 silly gunzTarPerm modified mode [ 'templates/js/routes/index.js', 438, 420 ]
+531 silly gunzTarPerm extractEntry templates/js/routes/users.js
+532 silly gunzTarPerm modified mode [ 'templates/js/routes/users.js', 438, 420 ]
+533 silly gunzTarPerm extractEntry templates/js/www.ejs
+534 silly gunzTarPerm modified mode [ 'templates/js/www.ejs', 438, 420 ]
+535 silly gunzTarPerm extractEntry templates/pug/error.pug
+536 silly gunzTarPerm modified mode [ 'templates/pug/error.pug', 438, 420 ]
+537 silly gunzTarPerm extractEntry templates/pug/index.pug
+538 silly gunzTarPerm modified mode [ 'templates/pug/index.pug', 438, 420 ]
+539 silly gunzTarPerm extractEntry templates/pug/layout.pug
+540 silly gunzTarPerm modified mode [ 'templates/pug/layout.pug', 438, 420 ]
+541 silly gunzTarPerm extractEntry templates/twig/error.twig
+542 silly gunzTarPerm modified mode [ 'templates/twig/error.twig', 438, 420 ]
+543 silly gunzTarPerm extractEntry templates/twig/index.twig
+544 silly gunzTarPerm modified mode [ 'templates/twig/index.twig', 438, 420 ]
+545 silly gunzTarPerm extractEntry templates/twig/layout.twig
+546 silly gunzTarPerm modified mode [ 'templates/twig/layout.twig', 438, 420 ]
+547 silly gunzTarPerm extractEntry templates/vash/error.vash
+548 silly gunzTarPerm modified mode [ 'templates/vash/error.vash', 438, 420 ]
+549 silly gunzTarPerm extractEntry templates/vash/index.vash
+550 silly gunzTarPerm modified mode [ 'templates/vash/index.vash', 438, 420 ]
+551 silly gunzTarPerm extractEntry templates/vash/layout.vash
+552 silly gunzTarPerm modified mode [ 'templates/vash/layout.vash', 438, 420 ]
+553 silly gunzTarPerm extractEntry README.md
+554 silly gunzTarPerm extractEntry .travis.yml
+555 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+556 silly gunzTarPerm extractEntry readme.markdown
+557 silly gunzTarPerm extractEntry test/dash.js
+558 silly gunzTarPerm extractEntry History.md
+559 silly gunzTarPerm extractEntry bin/usage.txt
+560 silly gunzTarPerm extractEntry examples/pow.js
+561 silly gunzTarPerm extractEntry test/
+562 silly gunzTarPerm extractEntry test/ejs.js
+563 silly gunzTarPerm extractEntry test/fixtures/
+564 silly gunzTarPerm extractEntry test/mocha.opts
+565 silly gunzTarPerm extractEntry test/default_bool.js
+566 silly gunzTarPerm extractEntry test/dotted.js
+567 silly gunzTarPerm extractEntry test/long.js
+568 silly gunzTarPerm extractEntry test/parse.js
+569 silly gunzTarPerm extractEntry test/parse_modified.js
+570 silly gunzTarPerm extractEntry test/short.js
+571 silly gunzTarPerm extractEntry test/whitespace.js
+572 silly gunzTarPerm extractEntry readme.markdown
+573 silly gunzTarPerm extractEntry test/chmod.js
+574 silly gunzTarPerm extractEntry test/tmp/
+575 silly gunzTarPerm extractEntry test/tmp/include.ejs
+576 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+577 silly gentlyRm /usr/local/lib/node_modules/.staging/sorted-object-b497dff3/node_modules is being purged
+578 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/sorted-object-b497dff3/node_modules
+579 silly gunzTarPerm extractEntry test/tmp/include_preprocessor.ejs
+580 silly gunzTarPerm extractEntry test/tmp/renderFile.ejs
+581 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+582 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+583 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+584 silly gunzTarPerm extractEntry test/perm.js
+585 silly gunzTarPerm extractEntry test/perm_sync.js
+586 silly gunzTarPerm extractEntry test/fixtures/comments.html
+587 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.ejs
+588 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.html
+589 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+590 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+591 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+592 silly gunzTarPerm extractEntry test/fixtures/error.out
+593 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+594 silly gunzTarPerm extractEntry test/fixtures/hello-world.ejs
+595 silly gunzTarPerm extractEntry test/fixtures/include-abspath.ejs
+596 silly gunzTarPerm extractEntry test/fixtures/include-root.ejs
+597 silly gunzTarPerm extractEntry test/fixtures/include-simple.ejs
+598 silly gunzTarPerm extractEntry test/fixtures/include-simple.html
+599 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+600 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+601 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+602 silly gunzTarPerm extractEntry test/fixtures/include.html
+603 silly gunzTarPerm extractEntry test/fixtures/include_cache.ejs
+604 silly gunzTarPerm extractEntry test/fixtures/include_cache.html
+605 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.ejs
+606 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.html
+607 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.ejs
+608 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.html
+609 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.ejs
+610 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.html
+611 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_line_slurp.ejs
+612 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_line_slurp.html
+613 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_line_slurp_child.ejs
+614 silly gunzTarPerm extractEntry test/fixtures/includes/
+615 silly gunzTarPerm extractEntry test/fixtures/literal.ejs
+616 silly gunzTarPerm extractEntry test/fixtures/literal.html
+617 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+618 silly gunzTarPerm extractEntry test/fixtures/menu.html
+619 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.ejs
+620 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.html
+621 silly gunzTarPerm extractEntry test/fixtures/menu_var.ejs
+622 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+623 silly gunzTarPerm extractEntry test/fixtures/messed.html
+624 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+625 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+626 silly gunzTarPerm extractEntry test/fixtures/newlines.mixed.ejs
+627 silly gunzTarPerm extractEntry test/fixtures/newlines.mixed.html
+628 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+629 silly gunzTarPerm extractEntry test/fixtures/no.newlines.error.ejs
+630 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+631 silly gunzTarPerm extractEntry test/fixtures/no.semicolons.ejs
+632 silly gunzTarPerm extractEntry test/fixtures/no.semicolons.html
+633 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+634 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+635 silly gunzTarPerm extractEntry test/fixtures/rmWhitespace.ejs
+636 silly gunzTarPerm extractEntry test/fixtures/rmWhitespace.html
+637 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+638 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+639 silly gunzTarPerm extractEntry test/fixtures/space-and-tab-slurp.ejs
+640 silly gunzTarPerm extractEntry test/fixtures/space-and-tab-slurp.html
+641 silly gunzTarPerm extractEntry test/fixtures/strict.ejs
+642 silly gunzTarPerm extractEntry test/fixtures/style.css
+643 silly gunzTarPerm extractEntry test/fixtures/user-no-with.ejs
+644 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+645 silly gunzTarPerm extractEntry test/fixtures/with-context.ejs
+646 silly gunzTarPerm extractEntry test/fixtures/includes/bom.ejs
+647 silly gunzTarPerm extractEntry test/fixtures/includes/menu/
+648 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+649 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+650 silly gunzTarPerm extractEntry lib/ejs.js
+651 silly gunzTarPerm extractEntry lib/utils.js
+652 silly gunzTarPerm extractEntry test/opts_fs.js
+653 silly gunzTarPerm extractEntry test/rel.js
+654 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-898e1b43/node_modules is being purged
+655 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-898e1b43/node_modules
+656 silly gunzTarPerm extractEntry test/return.js
+657 silly gunzTarPerm extractEntry test/return_sync.js
+658 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32/node_modules is being purged
+659 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32/node_modules
+660 silly gunzTarPerm extractEntry test/root.js
+661 silly gunzTarPerm extractEntry test/sync.js
+662 silly gunzTarPerm extractEntry test/mkdirp.js
+663 silly gunzTarPerm extractEntry test/umask.js
+664 silly gunzTarPerm extractEntry test/clobber.js
+665 silly gunzTarPerm extractEntry test/umask_sync.js
+666 silly gunzTarPerm extractEntry test/race.js
+667 silly gentlyRm /usr/local/lib/node_modules/.staging/minimist-cb6858d4/node_modules is being purged
+668 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimist-cb6858d4/node_modules
+669 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18/node_modules is being purged
+670 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18/node_modules
+671 silly gentlyRm /usr/local/lib/node_modules/.staging/express-generator-2930afea/node_modules is being purged
+672 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/express-generator-2930afea/node_modules
+673 silly gentlyRm /usr/local/lib/node_modules/.staging/ejs-2de19af3/node_modules is being purged
+674 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ejs-2de19af3/node_modules
+675 silly doParallel preinstall 7
+676 silly preinstall graceful-readlink@1.0.1 /usr/local/lib/node_modules/.staging/graceful-readlink-ea74dc32
+677 info lifecycle graceful-readlink@1.0.1~preinstall: graceful-readlink@1.0.1
+678 silly preinstall minimist@0.0.8 /usr/local/lib/node_modules/.staging/minimist-cb6858d4
+679 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+680 silly preinstall commander@2.9.0 /usr/local/lib/node_modules/.staging/commander-898e1b43
+681 info lifecycle commander@2.9.0~preinstall: commander@2.9.0
+682 silly preinstall ejs@2.5.6 /usr/local/lib/node_modules/.staging/ejs-2de19af3
+683 info lifecycle ejs@2.5.6~preinstall: ejs@2.5.6
+684 silly preinstall mkdirp@0.5.1 /usr/local/lib/node_modules/.staging/mkdirp-f65a1b18
+685 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+686 silly preinstall sorted-object@2.0.1 /usr/local/lib/node_modules/.staging/sorted-object-b497dff3
+687 info lifecycle sorted-object@2.0.1~preinstall: sorted-object@2.0.1
+688 silly preinstall express-generator@4.15.0 /usr/local/lib/node_modules/.staging/express-generator-2930afea
+689 info lifecycle express-generator@4.15.0~preinstall: express-generator@4.15.0
+690 silly lifecycle graceful-readlink@1.0.1~preinstall: no script for preinstall, continuing
+691 silly lifecycle minimist@0.0.8~preinstall: no script for preinstall, continuing
+692 silly lifecycle commander@2.9.0~preinstall: no script for preinstall, continuing
+693 silly lifecycle ejs@2.5.6~preinstall: no script for preinstall, continuing
+694 silly lifecycle mkdirp@0.5.1~preinstall: no script for preinstall, continuing
+695 silly lifecycle sorted-object@2.0.1~preinstall: no script for preinstall, continuing
+696 silly lifecycle express-generator@4.15.0~preinstall: no script for preinstall, continuing
+697 silly doReverseSerial remove 0
+698 silly doSerial move 0
+699 silly doSerial finalize 7
+700 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/graceful-readlink
+701 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/minimist
+702 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/commander
+703 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/ejs
+704 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/mkdirp
+705 silly finalize /usr/local/lib/node_modules/express-generator/node_modules/sorted-object
+706 silly finalize /usr/local/lib/node_modules/express-generator
+707 silly doSerial build 7
+708 silly build graceful-readlink@1.0.1
+709 info linkStuff graceful-readlink@1.0.1
+710 silly linkStuff graceful-readlink@1.0.1 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+711 silly linkStuff graceful-readlink@1.0.1 is part of a global install
+712 silly linkStuff graceful-readlink@1.0.1 is installed into a global node_modules
+713 verbose linkBins graceful-readlink@1.0.1
+714 verbose linkMans graceful-readlink@1.0.1
+715 silly build minimist@0.0.8
+716 info linkStuff minimist@0.0.8
+717 silly linkStuff minimist@0.0.8 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+718 silly linkStuff minimist@0.0.8 is part of a global install
+719 silly linkStuff minimist@0.0.8 is installed into a global node_modules
+720 verbose linkBins minimist@0.0.8
+721 verbose linkMans minimist@0.0.8
+722 silly build commander@2.9.0
+723 info linkStuff commander@2.9.0
+724 silly linkStuff commander@2.9.0 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+725 silly linkStuff commander@2.9.0 is part of a global install
+726 silly linkStuff commander@2.9.0 is installed into a global node_modules
+727 verbose linkBins commander@2.9.0
+728 verbose linkMans commander@2.9.0
+729 silly build ejs@2.5.6
+730 info linkStuff ejs@2.5.6
+731 silly linkStuff ejs@2.5.6 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+732 silly linkStuff ejs@2.5.6 is part of a global install
+733 silly linkStuff ejs@2.5.6 is installed into a global node_modules
+734 verbose linkBins ejs@2.5.6
+735 verbose linkMans ejs@2.5.6
+736 silly build mkdirp@0.5.1
+737 info linkStuff mkdirp@0.5.1
+738 silly linkStuff mkdirp@0.5.1 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+739 silly linkStuff mkdirp@0.5.1 is part of a global install
+740 silly linkStuff mkdirp@0.5.1 is installed into a global node_modules
+741 verbose linkBins mkdirp@0.5.1
+742 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+742 verbose link bins   '/usr/local/lib/node_modules/express-generator/node_modules/.bin',
+742 verbose link bins   false ]
+743 verbose linkMans mkdirp@0.5.1
+744 silly gentlyRm /usr/local/lib/node_modules/express-generator/node_modules/.bin/mkdirp is being purged
+745 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/express-generator/node_modules/.bin/mkdirp
+746 silly build sorted-object@2.0.1
+747 info linkStuff sorted-object@2.0.1
+748 silly linkStuff sorted-object@2.0.1 has /usr/local/lib/node_modules/express-generator/node_modules as its parent node_modules
+749 silly linkStuff sorted-object@2.0.1 is part of a global install
+750 silly linkStuff sorted-object@2.0.1 is installed into a global node_modules
+751 verbose linkBins sorted-object@2.0.1
+752 verbose linkMans sorted-object@2.0.1
+753 silly build express-generator@4.15.0
+754 info linkStuff express-generator@4.15.0
+755 silly linkStuff express-generator@4.15.0 has /usr/local/lib/node_modules as its parent node_modules
+756 silly linkStuff express-generator@4.15.0 is part of a global install
+757 silly linkStuff express-generator@4.15.0 is installed into a global node_modules
+758 silly linkStuff express-generator@4.15.0 is installed into the top-level global node_modules
+759 verbose linkBins express-generator@4.15.0
+760 verbose link bins [ { express: './bin/express-cli.js' }, '/usr/local/bin', true ]
+761 verbose linkMans express-generator@4.15.0
+762 silly gentlyRm /usr/local/bin/express is being gently removed
+763 verbose unlock done using /Users/jessica/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+764 silly rollbackFailedOptional Starting
+765 silly rollbackFailedOptional Finishing
+766 silly runTopLevelLifecycles Finishing
+767 silly install printInstalled
+768 verbose stack Error: EACCES: permission denied, symlink '../lib/node_modules/express-generator/bin/express-cli.js' -> '/usr/local/bin/express'
+768 verbose stack     at Error (native)
+769 verbose cwd /Users/miller/pro/LiveBgmEcho
+770 error Darwin 16.5.0
+771 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "express-generator"
+772 error node v6.10.0
+773 error npm  v3.10.10
+774 error path ../lib/node_modules/express-generator/bin/express-cli.js
+775 error code EACCES
+776 error errno -13
+777 error syscall symlink
+778 error Error: EACCES: permission denied, symlink '../lib/node_modules/express-generator/bin/express-cli.js' -> '/usr/local/bin/express'
+778 error     at Error (native)
+778 error  { Error: EACCES: permission denied, symlink '../lib/node_modules/express-generator/bin/express-cli.js' -> '/usr/local/bin/express'
+778 error     at Error (native)
+778 error   errno: -13,
+778 error   code: 'EACCES',
+778 error   syscall: 'symlink',
+778 error   path: '../lib/node_modules/express-generator/bin/express-cli.js',
+778 error   dest: '/usr/local/bin/express' }
+779 error Please try running this command again as root/Administrator.
+780 verbose exit [ -13, true ]
